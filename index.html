@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Google Clone</title>
-		<link type="text/css" rel="stylesheet" href="styles.css"/> 
+		<link rel="stylesheet" href="styles.css"> 
 	</head>
 	<body>
 		<div id="user-nav">
@@ -13,31 +13,32 @@
 				<li>Images</li>
 				<li>
 					<div id="apps">
-						<img scr="http://chuabacca.github.io/search-clone/img/apps.png" title="Google Apps">
+						<img src="img/apps.png" title="Google Apps">
 					</div>
 				</li>
 				<li>
 					<div id="notify">
-						<img scr="http://chuabacca.github.io/search-clone/img/bell.png">
+						<img src="img/bell.png">
 					</div>
 				</li>
 				<li><img id="avatar" src="http://chuabacca.github.io/img/avatar.jpg" title="Yep, that's me!"</li>
 			</ul>
 		</div>
-		<div id="logo">
+		<div id="main">
 			<img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" title="This image is sourced direcly from Google by using their image link as the src in my img element.">
-		</div>
-		<div id="search">
-			<form>
-				<input type="search">
-			</form>
-			<div class="button">
-				Google Search
+			<div>
+				<form>
+					<input id="search" type="text">
+				</form>
 			</div>
 			<div class="button">
-				I'm Feeling Googly
+				<p>Google Search</p>
+			</div>
+			<div class="button">
+				<p>I'm Feeling Googly</p>
 			</div>
 		</div>
+    </div>
 		<div id="footer">
 			<ul class="left">
 				<li>Advertising</li>
