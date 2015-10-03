@@ -1,0 +1,52 @@
+/*
+========================================
+Basic Styles
+========================================
+*/
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 13px;
+	color: #555;
+}
+
+/*
+========================================
+User Nav
+========================================
+*/
+
+.user-nav {
+	float: right;
+	list-style: none;
+	clear: both;
+	text-align: right;
+	width: 100%
+}
+
+.user-nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.user-nav img {
+	vertical-align: middle;
+	width: 40px;
+}
+
+.avatar {
+	border-radius: 100%;
+}
+
+/*
+========================================
+Search
+========================================
+*/
+
+
+/*
+========================================
+Footer
+========================================
+*/
